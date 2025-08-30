@@ -1,5 +1,5 @@
 {
-    "name": "ybazli/faker",
+    "name": "bar5um/faker",
     "description": "Persian fake data package for laravel",
     "type": "laravel",
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "ybazli",
             "email": "Yashar.bazli@gmail.com"
+        },
+        {
+            "name": "bar5um",
+            "email": "bar5um@icloud.com"
         }
     ],
     "autoload": {
