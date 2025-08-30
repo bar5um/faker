@@ -1,6 +1,12 @@
 # Persian Faker
 Persian faker package for laravel . This package is created for testing your project with fake data not for create spam. please do not use it to create spam. New options are comming soon. Enjoy it, thanks.
 
+## PHP 8 Compatibility
+This fork fixes compatibility issues with PHP 8 by removing the global `string()` helper, which caused conflicts, and replacing it with explicit `(string)` casts.
+
+- All Faker methods (`word()`, `sentence()`, `paragraph()`, etc.) now work safely in PHP 8.
+- This fork can be used directly in Laravel factories and seeders without throwing `Call to undefined function Ybazli\Faker\string()` errors.
+
 
 ## Installation
 
