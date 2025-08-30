@@ -249,6 +249,14 @@ class Faker
         return $this->getRandomKey('productCategory');
     }
 
+    /**
+     * return random persian productCategory
+     */
+    public function product()
+    {
+        return $this->getRandomKey('product');
+    }
+
 
     /**
      * @param int $length

@@ -1416,7 +1416,7 @@ Configure Automatic Updates درGroup Policy Editor - gpedit.msc بــا وار
         'کمربرد',
         //...
     ],
-	    $products = [
+	'product' => [
         "هندزفری بلوتوثی مدل  inpods 12",
         "هدفون بی سیم مدل BTH-F9-5",
         "هدفون بلوتوثی کیو سی وای مدل T13 TWS",
@@ -1937,6 +1937,6 @@ Configure Automatic Updates درGroup Policy Editor - gpedit.msc بــا وار
         "شکلات تلخ 83 درصد گالاردو فرمند - 1 کیلوگرم",
         "آدامس بدون شکر ویویدنت طعم نعنا - 33 گرم",
         "شکلات کرووکا با مغز کره بادام زمینی واول - 500 گرم",
-    ];
+    ]
 ];
 
