@@ -38,7 +38,7 @@ class Faker
             $name = array_rand($array);
         }
 
-        return string($array[$name]);
+        return (string) $array[$name];
     }
 
     /**
@@ -126,7 +126,7 @@ class Faker
     public function telephone()
     {
         $prefix = $this->getRandomKey('tellphone');
-        return string('0' . $prefix . randomNumber(7));
+        return (string) ('0' . $prefix . randomNumber(7));
     }
 
     /**
