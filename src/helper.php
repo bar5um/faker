@@ -2,12 +2,12 @@
 namespace Ybazli\Faker;
 
 // string helper
-if (!function_exists('string')) {
-    function string($value)
-    {
-        return (string) $value;
+if (!function_exists('str_cast')) {
+    function str_cast($value) {
+        return (string)$value;
     }
 }
+
 //get rand int
 if (!function_exists('randomNumber')) {
     function randomNumber($length = 20, $int = false)
